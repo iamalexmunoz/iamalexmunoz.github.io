@@ -1,0 +1,63 @@
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -2px;
+    padding: 1rem 0 2rem 0;
+    text-align: left;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.pretitle {
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.pretitle-hot {
+    color: var(--main-red)
+}
+
+.pretitle-cool {
+    color: var(--main-blue);
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+p + .p-strong {
+    margin-top: 1.5rem;
+}
+
+p + p {
+    margin-top: 1.5rem;
+} 
+
+.t-h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

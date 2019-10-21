@@ -1,0 +1,22 @@
+:root {
+    --main-white: #FBFBFB;
+    --main-red: #ED6A5B;
+    --main-blue: #5887AD;
+    --text-gray: #41454D;
+    --wrapPadding: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+    :root {
+        --wrapPadding: 0;
+    }
+}
+
+$s640: 640px;
+$s960: 960px;
+
+$breakpoints: (
+    $s640: 640px,
+    $s960: 960px   
+)
+
