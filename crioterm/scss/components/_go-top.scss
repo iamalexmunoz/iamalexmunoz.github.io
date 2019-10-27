@@ -1,0 +1,29 @@
+.go-top {
+    position: relative;
+    &__button {
+
+        background-color: var(--main-red);
+        background-image: url('../img/icon-compas.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px;
+        bottom: 0;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        width: 60px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+
+        svg {
+            fill: var(--main-white);
+        }
+
+        &:hover {
+            background-color: var(--main-blue);
+
+            svg {
+                fill: var(--main-red);
+            }
+        }
+    }
+}

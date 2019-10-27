@@ -1,0 +1,19 @@
+ul, ol {
+    list-style: none;
+}
+
+ol {
+    counter-reset: my-counter;
+}
+
+ol li {
+    counter-increment: my-counter;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+ol li::before {
+    content: counter(my-counter) ". ";
+    color: var(--main-red);
+    font-weight: bold;
+}

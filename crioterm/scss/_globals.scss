@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #ffffff;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mestre', sans-serif;
+    font-size: 1em;
+    color: var(--text-gray);
+    background: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+[role="button"] {
+    -webkit-appearance: none;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    border: 0;
+}
+
+section {
+    padding-top: space(4);
+    padding-bottom: space(6);
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav-list li,
+ul li,
+li {
+    list-style-type: none;
+}
