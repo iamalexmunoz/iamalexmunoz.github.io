@@ -19,16 +19,20 @@
 }
 
 .hero-product {
-    height: 50vh;
-    padding-top: space(2);
+    height: 80vh;
     background-image: none;
 }
 
 .hero-img {
     margin-bottom: space (5);
     max-height: 600px;
-    width: auto;
 }
+
+.hero-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
 /* Hero background modifier */
 .hero-hot {
@@ -40,19 +44,29 @@
     flex-flow: column nowrap;
 }
 
-@media (min-width: 768px) and (max-width: 1042px){
-    .hero {
-        padding-left: 4rem;
-        padding-right: 4rem;
+@media (min-width: 480px) and (max-width: 1024px){
+    .hero-img {
+        width: 50%;
+        margin: 0 auto;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .hero {
+        padding-left: space(3);
+        padding-right: space(3);
+    }    
 }
 
 @media screen and (min-width: 1024px) {
     .hero-content {
         flex-flow: row nowrap;
-        width: 70%;
     }
     .hero-title {
         width: 70%;
+    }
+    .hero-product {
+        height: 50vh;
+        padding-top: space(2);
     }
 }

@@ -4,11 +4,12 @@
     background-image: url(../img/lines-blue-to-white.svg);
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
 .products-title {
-    margin-top: 4rem;
+    margin-top: space(3);
 }
 
 .product-module {
@@ -16,7 +17,7 @@
     width: 100%;
     justify-content: center;
     flex-flow: column nowrap;
-    padding: space(2) 0;
+    padding: space(1) 0;
 }
 
 .product-module.odd {
@@ -27,6 +28,7 @@
     width: 100%;
     height: auto;
     margin-top: space(2);
+    max-height: space(18);
 }
 
 .product-module__img, .product-module__text {
@@ -36,6 +38,10 @@
 
 .product-module__text p{
     opacity: .7;
+}
+
+.product-module__text .pretitle {
+    margin-top: space();
 }
 
 .product-module .btn{

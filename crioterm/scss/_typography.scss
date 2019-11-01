@@ -61,3 +61,8 @@ p + p {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+.link:hover {
+    text-decoration: underline;
+    opacity: .6;
+}

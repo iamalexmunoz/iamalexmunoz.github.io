@@ -5,8 +5,8 @@
     position: sticky;
     top: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 0.85rem;
-    height: 68px;
+    font-size: 0.9rem;
+    height: 70px;
     z-index: 999;
 }
 
@@ -108,13 +108,8 @@ nav img {
         border-bottom: none;
     }
 
-    .nav-list li:last-child a {
-        border-right: 1px solid rgba(255,255,255,0.5);
-    }
-
     .nav-link {
-        padding: space();
-        border-left: 1px solid rgba(255,255,255,0.5);
+        padding: space() space(.75);
     }
 
     .nav-toggle { display: none; }

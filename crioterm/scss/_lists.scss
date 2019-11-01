@@ -17,3 +17,7 @@ ol li::before {
     color: var(--main-red);
     font-weight: bold;
 }
+
+ol.cold-list li::before {
+    color: var(--main-blue);
+}
