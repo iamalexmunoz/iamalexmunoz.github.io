@@ -30,7 +30,7 @@
 
 .hero-img img {
     display: block;
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 
@@ -44,10 +44,18 @@
     flex-flow: column nowrap;
 }
 
+@media screen and (min-width: 480px) {
+    .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
 @media (min-width: 480px) and (max-width: 1024px){
     .hero-img {
         width: 50%;
-        margin: 0 auto;
+        margin: 0 auto  ;
     }
 }
 
@@ -68,5 +76,5 @@
     .hero-product {
         height: 50vh;
         padding-top: space(2);
-    }
+    }    
 }

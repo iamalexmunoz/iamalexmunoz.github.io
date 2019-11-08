@@ -54,15 +54,31 @@ p + p {
     margin-top: 1.5rem;
 } 
 
+.t-h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: var(--text-gray)
+}
+
 .t-h3 {
     font-size: 2rem;
     font-weight: bold;
     line-height: 1.2;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: space(2);
+    margin-bottom: space();
 }
 
 .link:hover {
     text-decoration: underline;
     opacity: .6;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
 }

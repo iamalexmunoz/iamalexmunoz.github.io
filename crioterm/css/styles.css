@@ -511,17 +511,33 @@ p + p {
   margin-top: 1.5rem;
 }
 
+.t-h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  color: var(--text-gray);
+}
+
 .t-h3 {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 3.25rem;
+  margin-bottom: 1.625rem;
 }
 
 .link:hover {
   text-decoration: underline;
   opacity: .6;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
 }
 
 ul, ol {
@@ -962,7 +978,7 @@ nav img {
 
 .hero-img img {
   display: block;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -974,6 +990,13 @@ nav img {
 .hero-content {
   display: flex;
   flex-flow: column nowrap;
+}
+
+@media screen and (min-width: 480px) {
+  .hero-img img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 1024px) {
@@ -1115,6 +1138,7 @@ a.logo:hover {
 
 .products-title {
   margin-top: 4.875rem;
+  margin-bottom: 0;
 }
 
 .product-module {
@@ -1130,7 +1154,7 @@ a.logo:hover {
 }
 
 .product-module img {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-top: 3.25rem;
   max-height: 29.25rem;
