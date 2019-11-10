@@ -1153,6 +1153,10 @@ a.logo:hover {
   background-color: var(--main-white);
 }
 
+.product-module.odd .product-module__img img {
+  float: right;
+}
+
 .product-module img {
   width: 80%;
   height: auto;
