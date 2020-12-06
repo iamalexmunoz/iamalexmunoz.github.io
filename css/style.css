@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Myapfelgrotezk;
+  src: url(myapfelgrotezk.woff);
+}
+
+body, h1, h2, h3, p {
+  font-family: myapfelgrotezk, arial, sans;
+  font-size: 2rem;/*clamp(0.5em, 1em + 2vw, 2em);*/
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing:  -1px;
+  margin-bottom:  1em;
+  color:#0D0D0D;
+}
+
+h3.tags {
+  opacity: 0.5;
+  margin: 0.5em 0;
+}
+
+h1 span, h2 span {
+  display: inline-block;
+  background-color:#0D0D0D;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+
+header {
+  height: 100vh;
+  padding: 0.5em;
+  mix-blend-mode: exclusion;
+  
+}
+
+header section.text {
+  position: absolute;
+}
+header section.text h1, header section.text p {
+  color: #ffffff;
+}
+header section.text h1 span {
+  background-color: #ffffff;
+}
+/*  --- CSS --- */
+  
+html, body, header, article, section, h1, h2, p {
+	margin:0;
+}
+
+p + p{
+	text-indent: 1em;
+} 
+
+img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+article {
+	padding: 0.5em;
+	background-color: #F2F2F2;
+}
+
+article > section {
+	break-inside: avoid;
+}
+
+.link {
+	display:flex;
+	justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+	article {
+		display: block;
+		columns: 2;
+		
+		/*
+		position: sticky;
+		top:1em;
+		*/
+	}
+
+	section.text {
+		position:sticky;
+		top:0.5em;
+	}
+  section.images {
+		position:static;
+	}
+  header section {
+    width: 50%;
+  }
+
+}
