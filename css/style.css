@@ -1,6 +1,7 @@
 @font-face {
   font-family: Myapfelgrotezk;
-  src: url(font/myapfelgrotezk.woff);
+  src: url(font/myapfelgrotezk.woff) format('woff'),
+  url(font/MyApfelGrotezk.woff2) format('woff2');
 }
 
 body, h1, h2, h3, p {
@@ -31,7 +32,6 @@ header {
   height: 100vh;
   padding: 0.5em;
   mix-blend-mode: exclusion;
-  
 }
 
 header section.text {
